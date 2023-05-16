@@ -21,7 +21,7 @@ pipeline
         {
             steps
             {
-                bat 'C:\Users\ruiro\AppData\Local\Programs\Python\Python311\Scripts\pip install -r requirements.txt'
+                bat 'pip install -r requirements.txt'
             }
         }
         stage('Run')
