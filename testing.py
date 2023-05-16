@@ -1,8 +1,8 @@
 
 from parameterized import parameterized, parameterized_class
 import unittest
-from militar_app.utilscls import Utils
-from militar_app.militarcls import Militar
+from militar_apps import Utils
+from militar_app import Militar
 def soma(x,y):
     return x + y
 
